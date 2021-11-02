@@ -46,11 +46,12 @@ namespace Part_9___Making_a_Class_Demo
                 students.Add(new Student(firstName, lastName));
             }
 
-            for(int i = 0; i <= 3; i++)
+            for(int i = 0; i < students.Count; i++)
             {
                 Console.WriteLine(students[i]);
             }
-            
+
+            Console.WriteLine("");
 
         }
     }
